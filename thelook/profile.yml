@@ -1,0 +1,13 @@
+thelook:
+  outputs:
+    dev:
+      dataset: staging
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: US
+      method: oauth
+      priority: interactive
+      project: thelook-analytics-509323
+      threads: 4
+      type: bigquery
+  target: dev
