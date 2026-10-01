@@ -1,0 +1,20 @@
+{
+	"sqltools.connections": [
+		{
+			"name": "BigQuery",
+			"authenticator": "CLI",
+			"location": "us",
+			"previewLimit": 50,
+			"driver": "BigQuery",
+			"projectId": "thelook-analytics-509323"
+		},
+		{
+			"name": "thelook_analytics",
+			"authenticator": "CLI",
+			"location": "us",
+			"previewLimit": 50,
+			"driver": "BigQuery",
+			"projectId": "thelook_analytics_509323"
+		}
+	]
+}
